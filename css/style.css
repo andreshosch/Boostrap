@@ -1,0 +1,89 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .estilo_barra {
+        background-color: aquamarine;
+        text-transform: uppercase;
+    }
+    
+    .estilo_barra a:hover {
+        background-color: cornflowerblue;
+    }
+    
+    .estilos_enlaces {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .color_footer {
+        background-color: burlywood;
+        color: black;
+    }
+    
+    .color_redes {
+        background-color: antiquewhite;
+        color: black;
+    }
+    
+    .iconos {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    
+    .efecto div img:hover {
+        transform: scale(1.2);
+    }
+    
+    .imagen {
+        height: auto;
+        width: 100%;
+        padding-top: 1rem;
+    }
+    
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    
+    .iconos_redes {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .iconos_redes div:hover {
+        transform: scale(1.1);
+    }
+    
+    .color_boton_producto {
+        background-color: lawngreen;
+        color: black;
+    }
+    
+    .productos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 1%;
+        border-color: green;
+        background-color: azure
+    }
+    
+    .productos div {
+        margin-top: 2%;
+    }
+    
+    .productos div:hover {
+        opacity: 80%;
+    }
+    
+    h4 {
+        color: red;
+        font-size: solid;
+        text-align: left;
+    }
